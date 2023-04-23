@@ -2,6 +2,29 @@
     box-sizing: border-box;
 }
 html,body{
-    margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 1920px;
+    background: black;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-image: url("../Images/pont.jpg");
+    background-size: auto;
+    background-size: auto;
+    height : 150px;
+}
+
+.img-a-propos{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.activites{
+    margin-top: 250px;
+    padding: 10px;
 }
