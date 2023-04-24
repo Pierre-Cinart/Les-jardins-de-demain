@@ -16,13 +16,14 @@ html, body {
   background-image: url("../Images/pont.jpg");
   background-size: auto;
   background-size: auto;
-  height: 150px;
+  height: 100px;
 }
 
 .img-a-propos {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: auto;
+  border-radius: 5px;
 }
 
 .activites {
@@ -37,6 +38,24 @@ footer {
 
 .rights {
   margin-top: 33px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.fleurs-li {
+  color: white;
+}
+
+.sep-top {
+  margin-bottom: 100px;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
