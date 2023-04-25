@@ -6,7 +6,8 @@ html, body {
   margin: auto;
   padding: 0;
   max-width: 1920px;
-  background: black;
+  background: rgb(9, 57, 58);
+  background: linear-gradient(0deg, rgb(23, 149, 151) 0%, rgb(29, 155, 15) 100%);
   position: relative;
 }
 
