@@ -20,11 +20,24 @@ html,body{
     height : 100px;
 }
 
+.title-flowers a{
+        color: white;
+        text-decoration: none;
+}
+
 .img-a-propos{
     width: 150px;
     height: 150px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
+    box-shadow: 1px 1px 8px 8px #9BE0FF;
+    transition-duration: 500ms;
+}
+.img-a-propos:hover {
+    box-shadow: 2px 2px 10px 10px #0d74a3;
+    transition-duration: 500ms;
 }
 
 .activites{
@@ -71,4 +84,26 @@ footer{
 
 label{
     color: white;
+}
+
+.events{
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        text-decoration: underline;
+    }
 }

@@ -20,7 +20,7 @@ header.innerHTML ='<nav class="navbar navbar-expand-lg bg-body-tertiary">'+
                     '<a class="nav-link" href="contact.html">Contact</a>'+
                   '</li>'+
                   '<li class="nav-item">'+
-                    '<a class="nav-link" href="#">Evenements nationaux</a>'+
+                    '<a class="nav-link" href="events.html">Evenements nationaux</a>'+
                   '</li>'+
                   
                 '</ul>'+
