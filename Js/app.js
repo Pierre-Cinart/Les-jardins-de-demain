@@ -31,7 +31,9 @@ header.innerHTML ='<nav class="navbar navbar-expand-lg bg-body-tertiary">'+
 // integration du footer
 footer.innerHTML = ' <div class="row ">'+
 '<div class="col-3">'+
-    '<p>lorem5</p>'+
+    '<p>Exercice de développement de site web pour une association fictive,'+
+    " réalisé dans le cadre de ma formation de développeur web et d'application web chez Studi "+
+    "pour l'année 2023. </p>"+
 '</div>'+
 '<div class="col-3">'+
     '<p>lorem5</p>'+
