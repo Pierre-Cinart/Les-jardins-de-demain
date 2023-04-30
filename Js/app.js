@@ -13,6 +13,14 @@ header.innerHTML ='<nav class="navbar navbar-expand-lg bg-body-tertiary">'+
                   '<li class="nav-item">'+
                     '<a class="nav-link" href="index.html">Acceuil</a>'+
                   '</li>'+
+                  '<li class="nav-item dropdown">'+
+                  '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+
+                   'Catalogue </a>' +
+                  '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
+                  ' <a class="dropdown-item" href="annuelles.html">Nos plantes annuelles</a>'+
+                  '<a class="dropdown-item" href="bisannuelles.html">Nos plantes bisannuelles</a>'+
+                  '<a class="dropdown-item" href="vivaces.html">Nos plantes vivvaces</a>'+
+                 '</li>'+
                  '<li class="nav-item">'+
                     '<a class="nav-link" href="./index.html#a-propos">A propos</a>'+
                   '</li>'+
