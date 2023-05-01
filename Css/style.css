@@ -21,8 +21,10 @@ html, body {
   width: 100%;
   top: 0;
   background-image: url("../Images/pont.jpg");
-  background-size: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100px;
+  border-bottom: 2px rgb(99, 93, 93) solid;
 }
 
 .title-flowers a {
@@ -124,6 +126,17 @@ form {
   margin-top: 170px;
 }
 
+.box-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box-logos img {
+  padding: 5px;
+  width: 80px;
+  height: auto;
+}
+
 @media screen and (max-width: 1000px) {
   footer {
     height: 180px;
@@ -143,6 +156,12 @@ form {
 @media screen and (max-width: 550px) {
   footer {
     height: 350px;
+  }
+  .box-logos {
+    flex-direction: column;
+  }
+  .box-logos img {
+    width: 50px;
   }
 }
 
