@@ -7,10 +7,12 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin: auto;
-  padding: 0;
+  min-width: 250px;
   min-height: 100vh;
   max-width: 1920px;
+  margin: auto;
+  padding: 0;
+  margin: 0;
   background: rgb(9, 57, 58);
   background: linear-gradient(0deg, rgb(23, 149, 151) 0%, rgb(29, 155, 15) 100%);
   position: relative;
@@ -102,7 +104,7 @@ label {
 
 .events {
   color: white;
-  width: 60%;
+  width: 70%;
   margin: auto;
   text-align: center;
 }
@@ -162,6 +164,9 @@ form {
   }
   .box-logos img {
     width: 50px;
+  }
+  .events {
+    width: 90%;
   }
 }
 
