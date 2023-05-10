@@ -20,6 +20,7 @@ header.innerHTML ='<nav class="navbar navbar-expand-lg bg-body-tertiary">'+
                   ' <a class="dropdown-item" href="annuelles.html">Nos plantes annuelles</a>'+
                   '<a class="dropdown-item" href="bisannuelles.html">Nos plantes bisannuelles</a>'+
                   '<a class="dropdown-item" href="vivaces.html">Nos plantes vivaces</a>'+
+                   '</div>'+
                  '</li>'+
                  '<li class="nav-item">'+
                     '<a class="nav-link" href="./index.html#a-propos">A propos</a>'+
